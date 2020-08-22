@@ -152,3 +152,5 @@ The loss function is based on the dice coeffecient where which ranges from 0 to 
 
 The results from this model are shared in the notebook itself. It is observed that it does reasonably well with the urban settings. 
 This attempt was done as a side project and given more time, the best iteration would be to use the png format for training as converting to jpeg introduces noise in the masks.
+
+
