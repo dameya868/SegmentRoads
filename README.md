@@ -13,6 +13,10 @@ This allows for better training efficiency.
 Activation function used was elu - Exponential Linear Unit as it helps converge faster. The HE Normal initializer is used for a truncated normal distribution centered around 0. It is noticed that some image quality is lost in translation from jpeg to png.
 The neural network architecture was taken from skyeyenet with 5 upsampling layers and 4 downsampling layers to map to the masks images.
 
+The data is stored on 
+
+https://segmentskyeye.s3.amazonaws.com/
+
 The model may be described as below
 Model: "model_1"
 __________________________________________________________________________________________________
@@ -160,6 +164,4 @@ https://medium.com/analytics-vidhya/pytorch-implementation-of-semantic-segmentat
 
 This may be used as an inspiration to do semantic segmentation with one class as input.
 
-The data is store on 
 
-https://segmentskyeye.s3.amazonaws.com/
