@@ -159,3 +159,7 @@ Another direction to investigate would be to try Semantic Segmentation For Singl
 https://medium.com/analytics-vidhya/pytorch-implementation-of-semantic-segmentation-for-single-class-from-scratch-81f96643c98c
 
 This may be used as an inspiration to do semantic segmentation with one class as input.
+
+The data is store on 
+
+https://segmentskyeye.s3.amazonaws.com/
