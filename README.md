@@ -155,3 +155,7 @@ This attempt was done as a side project and given more time, the best iteration 
 
 To build the full roads these predicted masks can be stitched and some postprocessing algorithms may be developed for interpolation of results.
 
+Another direction to investigate would be to try Semantic Segmentation For Single Class as we are interested in only roads class. Such an attempt may be found at
+https://medium.com/analytics-vidhya/pytorch-implementation-of-semantic-segmentation-for-single-class-from-scratch-81f96643c98c
+
+This may be used as an inspiration to do semantic segmentation with one class as input.
