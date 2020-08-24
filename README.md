@@ -10,8 +10,10 @@ The second is inspired from skyeyenet and uses a custom trained network to do se
 In the second approach images were cropped from the original images and masks to resize them to 256*256.  
 This allows for better training efficiency. 
 
-Activation function used was elu - Exponential Linear Unit as it helps converge faster. The HE Normal initializer is used for a truncated normal distribution centered around 0. It is noticed that some image quality is lost in translation from jpeg to png.
+Activation function used was elu - Exponential Linear Unit as it helps converge faster. This activation function does not become zero like Relu for the negative values. Thus it avoids the dying relu problem. The HE Normal initializer is used for a truncated normal distribution centered around 0. It is noticed that some image quality is lost in translation from jpeg to png.
 The neural network architecture was taken from skyeyenet with 5 upsampling layers and 4 downsampling layers to map to the masks images.
+
+Batchnormalization was used on the layers to ensure standardization and hence faster training of the network. 
 
 The data is stored on 
 
